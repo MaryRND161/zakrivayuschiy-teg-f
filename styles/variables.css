@@ -2,15 +2,14 @@
 :root {
   --main-font: "PInter-Variable";
   --accent-font: "PressStart2P-Regular";
-  --text-weight-light: 400;
-  --text-weight-dark: 465;
-  --heading-weight-light: 700;
-  --heading-weight-dark: 785;
- /* --bg-color: #000028;
-  --bg-image: url(../images/cover-image-dark.png);
-  --text-color: #f1b2ce;
-  --accent-color: #ff0070;
-  --heading-color: #db00ff;
+  --bg-color: #ffffff;
+  --accent-color: #000000;
+  --heading-weight: 700;
+  --text-weight: 400;
+  --button-decor-rgb: 0, 0, 0;
+  --bg-image: url(../images/cover-image-light.png);
+ 
+  /*--heading-color: #db00ff;
   --title-color:  #000028;
   --title-bg-color: #ff0070;
   --shadow-decor: #ff0070;
