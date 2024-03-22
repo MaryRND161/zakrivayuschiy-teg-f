@@ -23,10 +23,9 @@
   color: var(--accent-color, #000000);
   font-size: 18px;
   background-color: var(--bg-color, #ffffff);
-  background-image: repeating-linear-gradient(#d3d3d3 10px, transparent 10px);
-  background-image: var(--bg-image, url(../images/cover-image-light.png));
-  background-position: center;
+  background-image: var(--bg-image);
+ /* background-position: center;*/
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
 }

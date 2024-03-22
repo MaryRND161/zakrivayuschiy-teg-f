@@ -7,9 +7,27 @@
   --heading-weight: 700;
   --text-weight: 400;
   --button-decor-rgb: 0, 0, 0;
-  --bg-image: url(../images/cover-image-light.png);
+  --bg-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      #e7e7e7 0.01%,
+      #1a1a1a
+    );
  
-  /*--heading-color: #db00ff;
+  /*
+  --bg-image: url(../images/cover-image-light.png);
+  --heading-color: #db00ff;
   --title-color:  #000028;
   --title-bg-color: #ff0070;
   --shadow-decor: #ff0070;
