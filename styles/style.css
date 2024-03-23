@@ -17,7 +17,6 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-
   font-family: var(--main-font, monospace);
   font-variation-settings: "wght" var(--text-weight);
   color: var(--accent-color, #000000);
@@ -28,4 +27,37 @@
   background-size: cover;
   background-attachment: fixed;
   /*background-repeat: no-repeat;*/
+  padding-inline: clamp(0.125rem, -7.9736rem + 34.554vw, 23.125rem);
+}
+
+.header {
+  margin-block: 100px;
+  display: grid;
+  grid-template-rows: 1fr min-content min-content;
+  gap: 20px 25px;
+  font-family: var(--accent-font);
+  font-weight: var(--text-weight);
+  line-height: 1;
+  text-decoration: uppercase;
+}
+
+.header__title {
+/* width: 100%; */
+padding-block-start: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem);
+
+justify-self: center;
+font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+}
+
+.header__subtitle{
+  justify-self: center;
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+}
+
+.theme-menu {
+  justify-self: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 14px;
 }
