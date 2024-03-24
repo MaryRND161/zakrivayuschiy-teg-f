@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256">
 <style>
-  fill: #000000;
+  fill='currentColor';
   @media (prefers-color-scheme: theme-dark) {
-  :root {
+  :path {
     fill: #00cc14;
     }
   }

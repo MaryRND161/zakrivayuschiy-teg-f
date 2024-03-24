@@ -11,20 +11,20 @@
       to right,
       #d3d3d3,
       #d3d3d3 2px,
-      transparent 2px,
-      transparent 4px
+      rgb(211 211 211 / 0) 2px,
+      rgb(211 211 211 / 0) 4px
     ),
     repeating-linear-gradient(
       #d3d3d3,
       #d3d3d3 2px,
-      transparent 2px,
-      transparent 4px
+      rgb(211 211 211 / 0) 2px,
+      rgb(211 211 211 / 0) 4px
     ),
     linear-gradient(
       #e7e7e7 0.01%,
       #1a1a1a
     );
- 
+
   /*
   --bg-image: url(../images/cover-image-light.png);
   --heading-color: #db00ff;
