@@ -11,6 +11,11 @@
     --accent-color: #00cc14;
     --heading-weight: 785;
     --text-weight: 465;
+    --text-shadow: -1px 0 #000000,
+      0 1px #000000,
+      1px 0 #000000,
+      0 -1px #000000;
+    --text-stroke: 1px #000000;
     --button-decor-rgb: 0, 204, 20;
     --bg-image: repeating-linear-gradient(
         to right,
@@ -37,6 +42,11 @@
   --accent-color: #00cc14;
   --heading-weight: 785;
   --text-weight: 465;
+  --text-shadow: -1px 0 #000000,
+    0 1px #000000,
+    1px 0 #000000,
+    0 -1px #000000;
+  --text-stroke: 1px #000000;
   --button-decor-rgb: 0, 204, 20;
   --bg-image: repeating-linear-gradient(
         to right,
@@ -62,6 +72,11 @@
   --accent-color: #000000;
   --heading-weight: 700;
   --text-weight: 400;
+  --text-shadow: -1px 0 #ffffff,
+    0 1px #ffffff,
+    1px 0 #ffffff,
+    0 -1px #ffffff;
+  --text-stroke: 1px #ffffff;
   --button-decor-rgb: 0, 0, 0;
   --bg-image: repeating-linear-gradient(
       to right,

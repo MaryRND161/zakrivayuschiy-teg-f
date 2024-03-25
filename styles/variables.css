@@ -6,6 +6,11 @@
   --accent-color: #000000;
   --heading-weight: 700;
   --text-weight: 400;
+  --text-shadow: -1px 0 #ffffff,
+    0 1px #ffffff,
+    1px 0 #ffffff,
+    0 -1px #ffffff;
+  --text-stroke: 1px #ffffff;
   --button-decor-rgb: 0, 0, 0;
   --bg-image: repeating-linear-gradient(
       to right,
