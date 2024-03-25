@@ -26,9 +26,18 @@
  /* background-position: center;*/
   background-size: cover;
   background-attachment: fixed;
-  /*background-repeat: no-repeat;*/
   padding-inline: clamp(0.125rem, -7.9736rem + 34.554vw, 23.125rem);
+  /*background-repeat: no-repeat;*/
+  
 }
+
+@media (width <= 375px) {
+  .page__window {
+    padding-inline: 0;
+    width: 100%;
+  }
+}
+
 
 .header {
   margin-block: 100px;
@@ -105,19 +114,39 @@ button {
   padding-inline-start: 10px;
 }
 
-@media (widt<=375px) {
-
-}
-
  .card__figure {
   margin: 0;
  }
+
+.card__picture {
+  position: relative;
+}
 
 .card__image {
   aspect-ratio: 1/1;
   display: block;
   object-fit: cover;
   inline-size: 100%;
+}
+
+.label {
+  /* watermark */
+
+position: absolute;
+width: 98px;
+height: 14px;
+left: 264px;
+top: 79px;
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+text-transform: uppercase;
+color: #000000;
+mix-blend-mode: hard-light;
+opacity: 0.5;
+border: 1px solid #FFFFFF;
 }
 
 .card__content {
@@ -139,6 +168,7 @@ button {
   margin-block-end: 25px;
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 
 .card__icon-button {
@@ -163,12 +193,29 @@ button {
 
 .footer {
   margin-block-start: clamp(3.25rem, 3.294rem + -0.1878vw, 3.125rem);
-  margin-block-end: clamp(6.4375rem, 6.5035rem + -0.2817vw, 6.25rem);
-  outline: 1px solid currentColor;
-  padding: 2.5%;
-  text-align: center;
+  margin-block-end: clamp(6.25rem, 6.184rem + 0.2817vw, 6.4375rem);
+  margin-inline: clamp(2.15625rem, -1.0458rem + 13.662vw, 11.25rem);
+  outline: 2px solid currentColor;
+  padding-block: 0.94rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 8px;
 }
 
 .footer__button {
+  outline: none;
+  inline-size: 21px;
+  block-size: 21px;
+}
 
+@media (width <= 375px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__button {
+    inline-size: 28px;
+    block-size: 28px;
+  }
 }
