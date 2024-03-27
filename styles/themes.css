@@ -9,6 +9,8 @@
   :root {
     --bg-color: #000000;
     --accent-color: #00cc14;
+    --dif-color: #00cc14;
+    --without-color: rgb(0 204 20 / 0);
     --heading-weight: 785;
     --text-weight: 465;
     --text-shadow: -1px 0 #000000,
@@ -40,6 +42,8 @@
 :root.theme-dark {
   --bg-color: #000000;
   --accent-color: #00cc14;
+  --dif-color: #00cc14;
+  --without-color: rgb(0 204 20 / 0);
   --heading-weight: 785;
   --text-weight: 465;
   --text-shadow: -1px 0 #000000,
@@ -70,6 +74,8 @@
 :root.theme-light {
   --bg-color: #ffffff;
   --accent-color: #000000;
+  --dif-color: #ffffff;
+  --without-color: rgb(0 0 0 / 0);
   --heading-weight: 700;
   --text-weight: 400;
   --text-shadow: -1px 0 #ffffff,

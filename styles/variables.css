@@ -4,6 +4,8 @@
   --accent-font: "PressStart2P-Regular";
   --bg-color: #ffffff;
   --accent-color: #000000;
+  --dif-color: #ffffff;
+  --without-color: rgb(0 0 0 / 0);
   --heading-weight: 700;
   --text-weight: 400;
   --text-shadow: -1px 0 #ffffff,
