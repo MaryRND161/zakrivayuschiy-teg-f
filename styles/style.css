@@ -237,12 +237,12 @@ button {
 }
 
 .card__like-button {
-  outline: 2px solid ;
+  outline: 2px solid;
   inline-size: 130px;
   block-size: 38px;
 }
 
-.card__like-button:hover {
+.card__like-button:focus {
   box-shadow: 2px 2px 0 var(--accent-color);
   transition: box-shadow 0.3s;
 }
@@ -250,6 +250,8 @@ button {
 .button__text {
   font-family: var(--accent-font);
   font-size: 14px;
+  position: relative;
+  z-index: 1;
 }
 
 .footer {
@@ -268,14 +270,56 @@ button {
   align-items: center;
   inline-size: 100%;
   padding-block: 15px;
-  padding-inline: 20px;
   outline: 2px solid currentColor;
+  overflow: hidden;
+  position: relative;
+
 } 
 
-.footer__button:hover {
+.footer__button:focus {
   box-shadow: 2px 2px 0 var(--accent-color);
   transition: box-shadow 0.3s;
 }
+
+.footer__button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--accent-color);
+  transition: transform 0.5s ease-in-out;
+  transform: translate(-100%);
+}
+
+.footer__button:hover::before {
+  transform: translate(0);
+}
+
+/*@keyframes pseudo-leaving {
+  from {
+    translate: -100% 0%;
+  }
+
+  to {
+    translate: 0% 0%;
+  }
+}
+
+
+.footer__button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--accent-color);
+  translate: -100% 0%;
+}
+
+.footer__button:hover::before {
+  animation: pseudo-leaving 0.5s ease-in-out;
+}*/
+
+
+
+
 
 .footer__image {
   outline: none;
