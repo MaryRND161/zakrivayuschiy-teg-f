@@ -10,6 +10,8 @@
     --bg-color: #000000;
     --accent-color: #00cc14;
     --dif-color: #00cc14;
+    --contour-color: #00cc14;
+    --sparks-color: #ff0000;
     --without-color: rgb(0 204 20 / 0);
     --heading-weight: 785;
     --text-weight: 465;
@@ -43,6 +45,8 @@
   --bg-color: #000000;
   --accent-color: #00cc14;
   --dif-color: #00cc14;
+  --contour-color: #00cc14;
+  --sparks-color: #ff0000;
   --without-color: rgb(0 204 20 / 0);
   --heading-weight: 785;
   --text-weight: 465;
@@ -75,6 +79,8 @@
   --bg-color: #ffffff;
   --accent-color: #000000;
   --dif-color: #ffffff;
+  --contour-color: #000000;
+  --sparks-color: #ff0000;
   --without-color: rgb(0 0 0 / 0);
   --heading-weight: 700;
   --text-weight: 400;
