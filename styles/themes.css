@@ -15,6 +15,7 @@
     --without-color: rgb(0 204 20 / 0);
     --heading-weight: 785;
     --text-weight: 465;
+    --accent-weight: 400;
     --text-shadow: -1px 0 #000000,
       0 1px #000000,
       1px 0 #000000,
@@ -50,6 +51,7 @@
   --without-color: rgb(0 204 20 / 0);
   --heading-weight: 785;
   --text-weight: 465;
+  --accent-weight: 400;
   --text-shadow: -1px 0 #000000,
     0 1px #000000,
     1px 0 #000000,
@@ -84,6 +86,7 @@
   --without-color: rgb(0 0 0 / 0);
   --heading-weight: 700;
   --text-weight: 400;
+  --accent-weight: 400;
   --text-shadow: -1px 0 #ffffff,
     0 1px #ffffff,
     1px 0 #ffffff,

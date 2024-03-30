@@ -1,6 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main-font: "PInter-Variable";
+  --main-font: "Inter-Variable";
   --accent-font: "PressStart2P-Regular";
   --bg-color: #ffffff;
   --accent-color: #000000;
@@ -10,6 +10,7 @@
   --without-color: rgb(0 0 0 / 0);
   --heading-weight: 700;
   --text-weight: 400;
+  --accent-weight: 400;
   --text-shadow: -1px 0 #ffffff,
     0 1px #ffffff,
     1px 0 #ffffff,
@@ -33,12 +34,4 @@
       #e7e7e7 0.01%,
       #1a1a1a
     );
-
-  /*
-  --bg-image: url(../images/cover-image-light.png);
-  --heading-color: #db00ff;
-  --title-color:  #000028;
-  --title-bg-color: #ff0070;
-  --shadow-decor: #ff0070;
-  --button-decor-rgb: 255, 0, 112; */
 }
