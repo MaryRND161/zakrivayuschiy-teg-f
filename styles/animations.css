@@ -13,6 +13,16 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
+@keyframes arrow-offset{
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translate(4px);
+  }
+}
+
 .like-icon {
   display: block;
   inline-size: 100%;
@@ -28,12 +38,12 @@
 }
 
 .like-icon .core {
-  fill: none;
+  fill: transparent;
   transition: fill 0.3s 0.03s linear;
 }
 
 .like-icon .main-body {
-  fill: none;
+  fill: transparent;
   transition: fill 0.3s linear;
 }
 
@@ -49,6 +59,7 @@
 
 .like-icon:active .core {
   fill: var(--sparks-color);
+  transition: fill 0.3s 0.05s linear;
 }
 
 .like-icon:active .main-body {
@@ -97,4 +108,9 @@
   to {
     opacity: 0;
   }
+}
+
+.card__icon-button:focus-visible {
+  --without-color: var(--accent-color);
+  transition: outline-color 0.3s;
 }
