@@ -281,7 +281,7 @@ button {
   block-size: 38px;
   justify-content: center;
   align-items: center;
-  outline: 1px solid var(--without-color);
+  border: 1px solid var(--without-color);
   transition: outline-color 0.3s;
 }
 
