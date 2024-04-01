@@ -5,7 +5,7 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-@media (prefers-color-scheme: theme-dark) {
+@media(prefers-color-scheme: dark) {
   :root {
     --bg-color: #000000;
     --accent-color: #00cc14;
@@ -77,6 +77,42 @@
       );
 }
 
+@media(prefers-color-scheme: light) {
+  :root {
+    --bg-color: #ffffff;
+    --accent-color: #000000;
+    --dif-color: #ffffff;
+    --contour-color: #000000;
+    --sparks-color: #ff0000;
+    --without-color: rgb(0 0 0 / 0);
+    --heading-weight: 700;
+    --text-weight: 400;
+    --accent-weight: 400;
+    --text-shadow: -1px 0 #ffffff,
+      0 1px #ffffff,
+      1px 0 #ffffff,
+      0 -1px #ffffff;
+    --text-stroke: 1px #ffffff;
+    --button-decor-rgb: 0, 0, 0;
+    --bg-image: repeating-linear-gradient(
+        to right,
+        #d3d3d3,
+        #d3d3d3 2px,
+        rgb(211 211 211 / 0) 2px,
+        rgb(211 211 211 / 0) 4px
+      ),
+      repeating-linear-gradient(
+        #d3d3d3,
+        #d3d3d3 2px,
+        rgb(211 211 211 / 0) 2px,
+        rgb(211 211 211 / 0) 4px
+      ),
+      linear-gradient(
+        #e7e7e7 0.01%,
+        #1a1a1a
+      );
+  }
+}
 :root.theme-light {
   --bg-color: #ffffff;
   --accent-color: #000000;

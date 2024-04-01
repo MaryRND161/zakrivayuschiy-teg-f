@@ -26,6 +26,8 @@
 .like-icon {
   display: block;
   inline-size: 100%;
+  align-self: center;
+  justify-self: center;
 }
 
 .like-icon .contour {
@@ -88,10 +90,12 @@
 
 @keyframes big-heart {
   from {
+    transform-origin: center center;
     transform: scale(1.5);
   }
 
   to {
+    transform-origin: center center;
     transform: scale(1);
   }
 }
@@ -112,5 +116,4 @@
 
 .card__icon-button:focus-visible {
   --without-color: var(--accent-color);
-  transition: outline-color 0.3s;
 }

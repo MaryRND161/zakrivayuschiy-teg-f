@@ -278,9 +278,11 @@ button {
 
 .card__icon-button {
   display: flex;
+  block-size: 34px;
   justify-content: center;
   align-items: center;
-  outline: 2px solid var(--without-color);
+  outline: 1px solid var(--without-color);
+  transition: outline-color 0.3s;
 }
 
 .card__icon-button:focus {
@@ -288,7 +290,6 @@ button {
 }
 
 .card__like-button {
-  position: relative;
   outline: 2px solid var(--accent-color);
   overflow: hidden;
   inline-size: 130px;
@@ -298,6 +299,7 @@ button {
 .button__text {
   font-family: var(--accent-font);
   font-weight: var(--accent-weight);
+  text-wrap: nowrap;
   font-size: 14px;
   line-height: 0.9;
 }
@@ -312,7 +314,6 @@ button {
 }
 
 .content__save-button {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -325,6 +326,8 @@ button {
 
 .differens__button {
   transition: box-shadow 0.3s;
+  position: relative;
+  color: var(--accent-color);
 }
 
 .differens__button:focus {
@@ -335,16 +338,14 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  color: var(--bg-color);
-  background-color: var(--accent-color);
+  background-color: var(--dif-color);
   transition: transform 0.5s ease-in-out;
   transform: translate(-100%);
   mix-blend-mode: difference;
 }
 
 .differens__button:hover::before {
-  background-color: var(--dif-color);
-  transform: translate(0);
+  transform: none;
 }
 
 .content__save-image {
@@ -418,7 +419,6 @@ button {
 }
 
 .popup__form-button {
-  position: relative;
   outline: 2px solid var(--accent-color);
   overflow: hidden;
   text-transform: uppercase;
