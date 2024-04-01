@@ -172,7 +172,7 @@ button {
 .card__figure-caption {
   border-block-end: 2px solid currentcolor;
   padding-block-start: 3px;
-  padding-block-end: 5px;
+  padding-block-end: 3px;
 }
 
 .card__picture {
@@ -278,7 +278,7 @@ button {
 
 .card__icon-button {
   display: flex;
-  block-size: 34px;
+  block-size: 38px;
   justify-content: center;
   align-items: center;
   outline: 1px solid var(--without-color);
